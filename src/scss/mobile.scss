@@ -1,0 +1,110 @@
+@media(max-width:767px){
+  .header__container{
+    flex-direction: column;
+    padding:0;
+  }
+  .header__contacts{
+    flex-direction: column;
+    row-gap: 15px;
+  }
+    //=======================================================================
+      .camping{
+        padding: 116pxё 0 116px 0 !important;
+      }
+      .camping__camping-text{
+        align-items: center !important;
+        text-align: center !important;
+      }
+      .camping-text__middle{
+        font-size: 20px !important;
+      }
+      .camping-text__down{
+        font-size: 18px !important;
+      }
+    //=======================================================================
+      .catalog__h2{
+        font-size: 26px !important;
+      }
+      .service__item{
+        height: 656px !important;
+      }
+      .catalog__services{
+        flex-wrap: wrap !important;
+      }
+      .catalog__arr{
+        display: none !important;
+      }
+    //=======================================================================
+    .banner{
+      padding: 237px 0 116px 0 !important;
+    }
+    .banner__banner-text{
+      align-items: center !important;
+      text-align: center !important;
+    }
+    .banner-text__middle{
+      font-size: 20px !important;
+    }
+    .banner-text__down{
+      font-size: 18px !important;
+    
+    
+    }
+
+
+    .form__header{
+      font-size: 30px !important;
+    }
+      .call__form{
+        padding: 47px 39px;
+        height: 492px;
+      }
+      .form__inputs{
+        row-gap: 20px;
+        flex-direction: column;
+        max-width:100%;
+        margin-top: 18px;
+      }
+      .form__inputs-number{
+        max-width:100%;
+        height: 63px;
+      }
+      .form__inputs-submit{
+        max-width:100%;
+        height: 63px;
+      }
+
+      .gallery__header{
+        font-size: 30px !important;
+      }
+      .gallery__image{
+        width: 287px;
+    height: 209px;
+      }
+      .reviews__header{
+        font-size: 30px !important;
+        margin-bottom: -155px;
+      }
+      .review{
+        min-width: 140vw;
+        transform: scale(0.7) translate(-100px, 0);
+        flex-direction: column;
+        &__content{
+          padding: 49px;
+        }
+        &__person{
+          padding:0px
+        }
+      }
+      .footer__nav{
+        row-gap: 20px;
+        flex-direction: column;
+      }
+      //==========================================================================
+      .service-1__background{
+        margin-top: 46px;
+      }
+      .service-item__bg{
+        margin-top: 46px;
+      }
+    }

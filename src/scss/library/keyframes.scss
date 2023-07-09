@@ -1,0 +1,70 @@
+@keyframes onload {
+  0% {
+    position: relative;
+    top: -50px;
+    opacity: 0;
+  }
+
+  100% {
+    position: relative;
+    opacity: 1;
+    top: 0;
+  }
+}
+//=======================================================================
+.appear {
+  animation: appear;
+  animation-duration: 1s;
+  transform: scale(1) !important
+}
+
+@keyframes appear {
+  0% {
+    position: relative;
+    top: -50px;
+    opacity: 0;
+  }
+
+  100% {
+    position: relative;
+    opacity: 1;
+    top: 0;
+  }
+}
+
+//=======================================================================
+.onscroll_left {
+  animation: onscroll_left;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes onscroll_left {
+  0% {
+    transform: translate(-1000px, 0);
+  }
+
+  100% {
+    transform: translate(0);
+    transform: scale(1) !important;
+  }
+}
+//=======================================================================
+.onscroll_right {
+  animation: onscroll_right;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes onscroll_right {
+  0% {
+    transform: translate(1000px, 0);
+  }
+
+  100% {
+    transform: translate(0);
+    transform: scale(1) !important;
+  }
+}
+//=======================================================================

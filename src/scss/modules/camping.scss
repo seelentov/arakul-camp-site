@@ -1,0 +1,85 @@
+
+.camping {
+padding: 237px 0 306px 0;
+background: url(https://imageup.ru/img97/4407083/camping.jpg) 0 0 no-repeat;
+background-position: center;
+background-size: cover;
+margin-top: -80px;
+
+/* .camping__container */
+}
+.camping__container {
+}
+
+/* .camping__camping-text */
+
+
+.camping__camping-text {
+transform: scale(0);
+text-align: right;
+align-items:end;
+color:white;
+row-gap: 40px;
+display: flex !important;
+flex-direction: column;
+}
+
+
+.camping-text {
+text-align: right;
+  align-items: flex-end;
+
+}
+/* .camping-text__up */
+
+.camping-text__up {
+background:white;
+width: 145px;
+height: 37px;
+font-size: 11px;
+font-weight: 400;
+display: flex;
+justify-content: center;
+align-items:center;
+border-radius: 5px;
+color:black;
+}
+
+/* .camping-text__middle */
+
+.camping-text__middle {
+font-size: 48px;
+font-weight: bold;
+
+}
+
+/* .camping-text__down */
+
+.camping-text__down {
+font-size: 24px ;
+font-weight: 100;
+
+}
+
+/* .camping-text__button */
+
+.camping-text__button {
+width: 274px;
+height: 54px;
+text-align: center;
+background:#F3DA4B;
+border: 0;
+border-radius: 5px;
+color:black;
+font-size: 18px;
+font-weight: 500;
+&:hover{
+  background:#f3a74b; 
+  }
+  &:active{
+  background:#895d28;
+  transform: scale(0);
+  }
+transition: all 0.2s ease-in;
+}
+

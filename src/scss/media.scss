@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .review{
+    transform: scale(0.7) translate(-134px, 0);
+  }
+  .half-hide{
+    transform: none;
+    opacity: 1 !important;
+  }
+  .service__item{
+    flex-basis: 100% !important;
+    height: 642px !important;
+    transform: scale(1) !important;
+  }
+
+}

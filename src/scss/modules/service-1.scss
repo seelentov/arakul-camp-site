@@ -1,0 +1,62 @@
+.service-1 {
+  background: url(https://imageup.ru/img21/4407119/banner-1.jpg) 0 0 no-repeat;
+  padding-top: 136px;
+  margin-top: -50px;
+  background-position: center;
+background-size: cover;
+  // .service-1__header
+  &__background{
+    background: linear-gradient(180deg, transparent, white 936px);
+  }
+  &__header {
+    font-size: 38px;
+    color:white;
+    font-weight: 600;
+  }
+  
+  // .service-1__container
+  
+  &__container {}
+  
+  // .service-1__catalog
+  
+  &__catalog {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:25px;
+    padding-top: 20px;
+  }
+  }
+
+  .catalog {
+  
+  // .catalog__item
+  
+  &__item {
+    background: white;
+    overflow: hidden;
+    background-position: center;
+background-size: cover;
+  }
+  
+  // .catalog__img
+  
+  &__img {}
+  
+  // .catalog__header
+  
+  &__header {}
+  
+  // .catalog__text
+  
+  &__text {}
+  
+  // .catalog__price
+  
+  &__price {}
+  
+  // .catalog__more
+  
+  &__more {}
+  }
+  

@@ -1,0 +1,109 @@
+.call {
+  text-align: center;
+background:#428157;
+padding: 246px 0 202px 0;
+
+  // .call__container
+  
+  &__container {}
+  
+  // .call__form
+  
+  &__form {
+    width: 100%;
+    background:white;
+    border-radius:5px;
+    height: 394px;
+    padding: 70px 150px;
+  }
+  }
+  .form {
+  
+  // .form__header
+  
+  &__header {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  // .form__desc
+  
+  &__desc {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 21px;
+  }
+  
+  // .form__inputs
+  
+  &__inputs {
+    margin-top: 36px;
+    display: flex;
+    column-gap:20px;
+    justify-content: center;
+    align-items:center;
+  }
+  
+  // .form__inputs-number
+  
+  &__inputs-number {
+    width: 380px;
+    height: 85px;
+    background: #F2F6FA;
+    color:#7E868E;
+    padding-left: 43px;
+    font-size: 15px;
+    border:0;
+    border-radius:5px;
+  }
+  
+  // .form__inputs-submit
+  
+  &__inputs-submit {
+    border:0;
+    border-radius:5px;
+    background: #FED84C;
+    font-size: 18px;
+    color: #2E363E;
+    text-align: center;
+    width: 380px;
+    height: 85px;
+    font-weight: 500;
+    transition: all 0.2s ease-in;
+    &:hover{
+        background:#f3a74b; 
+        }
+        &:active{
+        background:#895d28;
+        transform: scale(0);
+        }
+        
+    }
+  
+  
+  // .form__doc
+
+  }
+  .form {
+
+    // .form__inputs-submit
+    
+    &__inputs-submit {}
+    
+    // .form__privacy
+    
+    &__privacy {
+      margin-top: 25px;
+    }
+    }
+    .privacy {
+    
+    // .privacy__checkbox
+    
+    &__checkbox {}
+    
+    // .privacy__label
+    
+    &__label {}
+    }
+    

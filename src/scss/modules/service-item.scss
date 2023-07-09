@@ -1,0 +1,89 @@
+.service-item {
+  background: url(https://imageup.ru/img21/4407119/banner-1.jpg) 0 0 no-repeat;
+  padding-top: 136px;
+  margin-top: -50px;
+  background-position: center;
+  background-size: cover;
+  // .service-item__bg
+  line-height: 1.2;
+  &__bg {
+
+    margin-top: -118px;
+    background: linear-gradient(180deg, transparent 0px, white 234px);
+  }
+  
+  // .service-item__container
+  
+  &__container {
+    padding-top: 124px;
+  }
+  
+  // .service-item__header
+  
+  &__header {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+  }
+  
+  // .service-item__text
+  
+  &__content {
+    & p{
+      margin-bottom: 7px;
+    }
+  }
+  
+  // .service-item__images
+  
+  &__images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: scroll;
+    height: 316px;
+    margin: 20px 0;
+  }
+  
+  // .service-item__image
+  
+  &__image {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  }
+  .container {
+  }
+  .gallery {
+  
+  // .gallery__image
+  
+  &__image {}
+  }
+  
+  .service-item {
+
+    // .service-item__price
+    
+    &__price {
+      
+    }
+    }
+    .price {
+    
+    // .price__header
+    
+    &__header {
+      font-size: 31px;
+    margin: 49px 0 8px 0;
+    }
+    
+    // .price__text
+    
+    &__text {
+      font-size: 20px;
+    }
+    }
+    

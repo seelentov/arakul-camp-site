@@ -1,0 +1,41 @@
+.footer {
+  padding: 40px 0;
+  background:white;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+  // .footer_copy
+  
+  &_copy {
+    margin-top: 16px;
+    text-align:center
+  }
+  
+  // .footer__container
+  
+  &__container {}
+  
+  // .footer__nav
+  
+  &__nav {
+    display: flex;
+    justify-content: center;
+    column-gap:20px;
+    align-items:center;
+  }
+  }
+  .nav {
+  
+  // .nav__link
+  
+  &__link {
+    transition: all 0.2s ease-in;
+    &:hover{
+      color: #428157;;
+    }
+    &:active{
+      color:white
+    }
+  }
+  }
+  
